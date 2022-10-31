@@ -1,0 +1,193 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+
+}
+.meinMenu {
+  color: #005BBB;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 518px;
+}
+.meinText {
+  color: #005BBB;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 140%;
+  margin: 80px 208px;
+}
+.longLine {
+  border: 1px solid #005BBB;
+  margin: 0 208px;
+}
+.titleHistory {
+  color: #005BBB;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+}
+.smallLine {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #005BBB;
+  width: 500px;
+}
+.blockHistory {
+margin: 40px 209px 80px 209px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.historyText {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  background: #005BBB;
+  padding: 40px;
+  width: 48%;
+  height: 394px;
+}
+.historyText:before{
+  content: "";
+  width: 10px;
+  height: 394px;
+  background-color: #FFD500;
+  display: inline-block;
+}
+.texty {
+  font-size: 48px;
+}
+.slider {
+  position: relative;
+  margin: 0 80px;
+}
+.slider .slick-arrow {
+  position: absolute; 
+  top: 50%;
+  z-index: -10;
+  font-size: 0;
+}
+.slider .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider .slick-dots li{
+  list-style: none;
+  margin: 40px 16px 0 0;
+}
+.slider .slick-dots button {
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #005BBB;
+}
+.slider .slick-dots li.slick-active button {
+  background: #005BBB;
+}
+.slick-track{
+  display: flex;
+  align-items: flex-start;
+}
+.sliderItem{
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-image: linear-gradient(to bottom, #005BBB 50%, #FFD500 50%) 1 1;
+}
+.submit{
+  background: #005BBB;
+  width: 199px;
+  height: 60px;
+  border: none;
+  font-family: 'Montserrat';
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+}
+.footer{
+  border: 1px solid #005BBB;
+  margin: 36px 208px 160px 208px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.search{
+  border: none;
+}
+.search::placeholder{
+  font-family: 'Montserrat';
+  color: #005BBB;
+}
